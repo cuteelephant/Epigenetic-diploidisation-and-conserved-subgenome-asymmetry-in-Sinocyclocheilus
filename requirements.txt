@@ -1,0 +1,14 @@
+# Python-only dependencies of the analysis scripts.
+# For the full toolchain (Hifiasm, BRAKER3, Earl Grey, CALDER, etc.)
+# see README.md / environment.yml.
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+seaborn>=0.13
+biopython>=1.81
+pysam>=0.22
+pybedtools>=0.9
+pyfaidx>=0.7

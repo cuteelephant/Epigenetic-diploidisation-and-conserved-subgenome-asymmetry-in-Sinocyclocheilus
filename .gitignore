@@ -1,0 +1,50 @@
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# Bioinformatics outputs / large data
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa.gz
+*.fasta.gz
+*.vcf
+*.vcf.gz
+*.bcf
+*.gff3.gz
+*.h5
+*.cool
+*.hic
+*.bedgraph
+*.bw
+*.bigwig
+
+# Tool work directories (typical)
+hifiasm/
+braker/
+work/
+results/
+tmp/
+logs/

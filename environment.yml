@@ -1,0 +1,36 @@
+
+name: sino-cyprinid
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # Core scientific Python
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - statsmodels>=0.14
+  - matplotlib>=3.7
+  - seaborn>=0.13
+  # Bioinformatics
+  - biopython>=1.81
+  - pysam>=0.22
+  - pybedtools>=0.9
+  - bedtools=2.27.1
+  - samtools
+  - bcftools
+  - htslib
+  # Light-weight pipeline glue used by some shell scripts
+  - parallel
+  - gffread
+  # R for CALDER wrapper
+  - r-base>=4.2
+  - r-essentials
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+  - r-devtools
+  - pip:
+      - pyfaidx>=0.7
